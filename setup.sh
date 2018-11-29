@@ -7,4 +7,6 @@ cd ..
 cd data
 python gdrive_dowlonload.py 0B-5EkZMOlIt2cFdjYUJZdGxSREU languageModel
 cd ..
-
+sbt compile
+sbt -J-Xmx10000M clean compile assembly
+mv target/scala-2.10/openie-assembly-5.0-SNAPSHOT.jar .

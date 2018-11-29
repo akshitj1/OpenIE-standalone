@@ -1,2 +1,6 @@
 data/languageModel
 lib/
+*.jar
+project/project/
+project/target/
+target/
